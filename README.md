@@ -30,7 +30,15 @@ please make sure to set influxdb user & password as environment variables, see t
 ```
 
 ## 2 Installation
+
+### 2.1 [Influxdb](https://github.com/influxdata/influxdb-python)
 ```
-- https://github.com/influxdata/influxdb-python
-- https://grafana.com/
+$ pip install influxdb
+$ sudo apt-get install python-influxdb
+```
+
+### 2.2 [Grafana](https://grafana.com/)
+```
+abc
+
 ```
