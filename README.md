@@ -80,14 +80,14 @@ We're having a lot of problems (to due lacking a professional driver ;-) with th
 ![](images/racing-data.png)
 ![](images/racing.png)
 
-## 5 HowTo Start
+## 5 Howto Start
 ![](images/race-monitor-setup.png)
 
-1. modify *your manage.py*, see our [example](mycar/manage_influx3.py) lines 38 & 800
+1. modify your *manage.py*, see our [example](mycar/manage_influx3.py) lines 38 & 800
 2. start your monitor scripts, e.g. for laptimes etc
 3. start your car with
 ```
-python manage_influx3,py drive
+python manage_influx3.py drive
 ```
 4. import the [dashboard json](grafana-dashboard/DIYrobocars-RacingDashboard-V2_InfluxPart-1641727550054.json) into grafana
 5. open [grafana](http://127.0.0.1:3000) at your local browser
