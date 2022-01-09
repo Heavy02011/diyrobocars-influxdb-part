@@ -48,6 +48,11 @@ Copy influx.py to the actual (used) donkeycar location
 cp rbxparts/influx.py /media/rainer/_data/30-projects/donkeycar42_official/donkeycar/donkeycar/parts
 ```
 
+### 2.4 Reset Grafana Password Locally
+```
+sudo grafana-cli admin reset-admin-password xyz
+```
+
 ## 3 Reproducing Previous Installation
 ```
 cd /media/rainer/_data/30-projects/mysims/mysim_robohat2
