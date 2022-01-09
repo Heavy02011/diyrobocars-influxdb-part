@@ -4,7 +4,7 @@ documentation of integration of part influx.py into DIYrobocars.com framework
 ![](images/donkeycar-dashboard-grafana.jpg)
 
 ## 1 Motivation and Background
-As I'm again and again stumpling across understanding 
+As I'm again and again stumbling across understanding 
 1. parts anatomy and integration
 2. my car behaviour during training and race in the simulator
 3. 
