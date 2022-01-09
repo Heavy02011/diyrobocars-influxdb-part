@@ -1,7 +1,7 @@
 # diyrobocars-influxdb-part
 documentation of integration of part influx.py into DIYrobocars.com framework
 
-![](https://github.com/Heavy02011/diyrobocars-influxdb-part/blob/main/images/donkeycar-dashboard-grafana.jpg)
+![](images/donkeycar-dashboard-grafana.jpg)
 
 ## 1 Motivation and Background
 As I'm again and again stumpling across understanding 
@@ -12,7 +12,7 @@ I take the opportunity to document every step to follow on how to integrate a ne
 
 The original version was first shown on [discord](https://discord.com/channels/662098530411741184/694603353061195916/705903432120270920) on May 2nd 2020 
 
-![](https://github.com/Heavy02011/diyrobocars-influxdb-part/blob/main/images/racemonitor-fristdemo.png)
+![](images/racemonitor-firstdemo.png)
 
 and published on the [discord channel](https://discord.com/channels/662098530411741184/671604287419187200/778673564387639367) in this [gist](https://gist.github.com/Heavy02011/0c31b8cd6025f50e7387456b25bffc20) on Nov. 18, 2020.
 
@@ -39,8 +39,7 @@ $ sudo apt-get install python-influxdb
 
 ### 2.2 [Grafana](https://grafana.com/)
 ```
-abc
-
+(follow instructions of grafana.com)
 ```
 ### 2.3 [Donkeycar part](https://github.com/Heavy02011/50-donkey/tree/master/rbxparts)
 Copy influx.py to the actual (used) donkeycar location
@@ -53,7 +52,7 @@ cp rbxparts/influx.py /media/rainer/_data/30-projects/donkeycar42_official/donke
 sudo grafana-cli admin reset-admin-password xyz
 ```
 
-### 2.5 Install Grafana plugins
+### 2.5 Install Grafana plugins & Restart Grafana
 ```
 (sds14) rainer@neuron:~$ grafana-cli plugins list-remote|grep plotly
 id: ae3e-plotly-panel version: 0.5.0
@@ -74,3 +73,4 @@ cd /media/rainer/_data/30-projects/mysims/mysim_robohat2
 
 (sds) rainer@neuron:~/mysim_robohat$ python manage_influx2.py drive --js
 ```
+![](images/dashboard_back2.png)
