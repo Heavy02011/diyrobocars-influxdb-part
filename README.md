@@ -3,7 +3,7 @@ documentation of integration of part influx.py into DIYrobocars.com framework
 
 ![](https://github.com/Heavy02011/diyrobocars-influxdb-part/blob/main/images/donkeycar-dashboard-grafana.jpg)
 
-## Motivation and Background
+## 1 Motivation and Background
 As I'm again and again stumpling across understanding 
 1. parts anatomy and integration
 2. my car behaviour during training and race in the simulator
@@ -27,4 +27,10 @@ ref.2: you start an instance of grafana on your preferred server - eg the jetson
 ref. implementing: just test the part above. installing influxdb & grafana took me < 30 min on Ubuntu 18.04 on my local machine.
 please make sure to set influxdb user & password as environment variables, see the code 
 
+```
+
+## 2 Installation
+```
+- https://github.com/influxdata/influxdb-python
+- https://grafana.com/
 ```
