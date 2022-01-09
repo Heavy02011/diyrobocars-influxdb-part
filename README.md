@@ -83,7 +83,7 @@ We're having a lot of problems (to due lacking a professional driver ;-) with th
 ## 5 HowTo Start
 ![](images/race-monitor-setup.png)
 
-1. modify your manage,py, see our [example](mycar/manage_influx3.py)
+1. modify your manage,py, see our [example](mycar/manage_influx3.py) lines 38 & 800
 2. start your monitor scripts, e.g. for laptimes etc
 3. start your car with
 ```
