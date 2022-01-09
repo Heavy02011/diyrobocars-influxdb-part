@@ -1,6 +1,8 @@
 # diyrobocars-influxdb-part
 documentation of integration of part influx.py into DIYrobocars.com framework
 
+![](https://github.com/Heavy02011/diyrobocars-influxdb-part/blob/main/images/donkeycar-dashboard-grafana.jpg)
+
 ## Motivation and Background
 As I'm again and again stumpling across understanding 
 1. parts anatomy and integration
