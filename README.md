@@ -74,3 +74,8 @@ cd /media/rainer/_data/30-projects/mysims/mysim_robohat2
 (sds) rainer@neuron:~/mysim_robohat$ python manage_influx2.py drive --js
 ```
 ![](images/dashboard_back2.png)
+
+## 4 Application to race #14 of Virtual Race League
+We're having a lot of problems (to due lacking a professional driver ;-) with the stability of our car. This shows a situation with spinning shortly after the finish line and reaching maximum speed.
+![](images/racing-data.png)
+![](images/racing.png)
