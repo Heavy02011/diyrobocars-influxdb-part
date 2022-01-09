@@ -58,6 +58,12 @@ sudo grafana-cli admin reset-admin-password xyz
 (sds14) rainer@neuron:~$ grafana-cli plugins list-remote|grep plotly
 id: ae3e-plotly-panel version: 0.5.0
 id: natel-plotly-panel version: 0.0.7
+
+grafana-cli plugins ls
+
+(sds14) rainer@neuron:~$ sudo grafana-cli plugins install natel-plotly-panel
+✔ Downloaded natel-plotly-panel v0.0.7 zip successfully
+
 ```
 
 ## 3 Reproducing Previous Installation
