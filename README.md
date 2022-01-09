@@ -53,6 +53,13 @@ cp rbxparts/influx.py /media/rainer/_data/30-projects/donkeycar42_official/donke
 sudo grafana-cli admin reset-admin-password xyz
 ```
 
+### 2.5 Install Grafana plugins
+```
+(sds14) rainer@neuron:~$ grafana-cli plugins list-remote|grep plotly
+id: ae3e-plotly-panel version: 0.5.0
+id: natel-plotly-panel version: 0.0.7
+```
+
 ## 3 Reproducing Previous Installation
 ```
 cd /media/rainer/_data/30-projects/mysims/mysim_robohat2
