@@ -64,6 +64,8 @@ grafana-cli plugins ls
 (sds14) rainer@neuron:~$ sudo grafana-cli plugins install natel-plotly-panel
 ✔ Downloaded natel-plotly-panel v0.0.7 zip successfully
 
+sudo systemctl restart grafana-server
+sudo systemctl status grafana-server
 ```
 
 ## 3 Reproducing Previous Installation
