@@ -84,8 +84,9 @@ We're having a lot of problems (to due lacking a professional driver ;-) with th
 ![](images/race-monitor-setup.png)
 
 1. modify your *manage.py*, see our [example](mycar/manage_influx3.py) lines 38 & 800
-2. start your monitor scripts, e.g. for laptimes etc
-3. start your car with
+2. place [*influx.py*](https://github.com/Heavy02011/diyrobocars-influxdb-part/blob/main/parts/influx.py) into donkeycar/parts
+3. start your monitor scripts, e.g. for laptimes etc
+4. start your car with
 ```
 python manage_influx3.py drive
 ```
