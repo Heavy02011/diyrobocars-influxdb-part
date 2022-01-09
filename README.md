@@ -10,7 +10,11 @@ As I'm again and again stumpling across understanding
 3. 
 I take the opportunity to document every step to follow on how to integrate a new part - here influx.py - into the donkeycar framework.
 
-The original version was first shown on [discord](https://discord.com/channels/662098530411741184/694603353061195916/705903432120270920) on May 2nd 2020 and published on the [discord channel](https://discord.com/channels/662098530411741184/671604287419187200/778673564387639367) in this [gist](https://gist.github.com/Heavy02011/0c31b8cd6025f50e7387456b25bffc20) on Nov. 18, 2020.
+The original version was first shown on [discord](https://discord.com/channels/662098530411741184/694603353061195916/705903432120270920) on May 2nd 2020 
+
+![](https://github.com/Heavy02011/diyrobocars-influxdb-part/blob/main/images/racemonitor-fristdemo.png)
+
+and published on the [discord channel](https://discord.com/channels/662098530411741184/671604287419187200/778673564387639367) in this [gist](https://gist.github.com/Heavy02011/0c31b8cd6025f50e7387456b25bffc20) on Nov. 18, 2020.
 
 ```
 cloud-rocket — 19.11.2020
