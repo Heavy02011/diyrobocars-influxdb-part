@@ -79,3 +79,15 @@ cd /media/rainer/_data/30-projects/mysims/mysim_robohat2
 We're having a lot of problems (to due lacking a professional driver ;-) with the stability of our car. This shows a situation with spinning shortly after the finish line and reaching maximum speed.
 ![](images/racing-data.png)
 ![](images/racing.png)
+
+## 5 HowTo Start
+![](images/race-monitor-setup.png)
+
+1. modify your manage,py, see our [example](mycar/manage_influx3.py)
+2. start your monitor scripts, e.g. for laptimes etc
+3. start your car with
+```
+python manage_influx3,py drive
+```
+4. import the [dashboard json](dashboafrd-grafana/) into grafana
+5. open [grafana](127.0.0.1:3000) at your local browser
