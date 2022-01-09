@@ -7,7 +7,7 @@ documentation of integration of part influx.py into DIYrobocars.com framework
 As I'm again and again stumbling across understanding 
 1. parts anatomy and integration
 2. my car behaviour during training and race in the simulator
-3. 
+
 I take the opportunity to document every step to follow on how to integrate a new part - here influx.py - into the donkeycar framework.
 
 The original version was first shown on [discord](https://discord.com/channels/662098530411741184/694603353061195916/705903432120270920) on May 2nd 2020 
