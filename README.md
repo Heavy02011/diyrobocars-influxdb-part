@@ -91,3 +91,5 @@ python manage_influx3.py drive
 ```
 4. import the [dashboard json](grafana-dashboard/DIYrobocars-RacingDashboard-V2_InfluxPart-1641727550054.json) into grafana
 5. open [grafana](http://127.0.0.1:3000) at your local browser
+
+Have fun & go fast!
