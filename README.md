@@ -42,6 +42,11 @@ $ sudo apt-get install python-influxdb
 abc
 
 ```
+### 2.3 [Donkeycar part](https://github.com/Heavy02011/50-donkey/tree/master/rbxparts)
+Copy influx.py to the actual (used) donkeycar location
+```
+cp rbxparts/influx.py /media/rainer/_data/30-projects/donkeycar42_official/donkeycar/donkeycar/parts
+```
 
 ## 3 Reproducing Previous Installation
 ```
