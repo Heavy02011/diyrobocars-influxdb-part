@@ -42,3 +42,10 @@ $ sudo apt-get install python-influxdb
 abc
 
 ```
+
+## 3 Reproducing Previous Installation
+```
+cd /media/rainer/_data/30-projects/mysims/mysim_robohat2
+
+(sds) rainer@neuron:~/mysim_robohat$ python manage_influx2.py drive --js
+```
