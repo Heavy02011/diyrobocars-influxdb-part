@@ -95,3 +95,6 @@ class InfluxController(object):
     
     def shutdown(self):
         self.on = False
+        
+if __name__ == '__main__':
+    pass
