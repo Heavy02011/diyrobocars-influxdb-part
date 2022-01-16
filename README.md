@@ -1,7 +1,7 @@
 # diyrobocars-influxdb-part
 documentation of integration of part influx.py into DIYrobocars.com framework
 
-![](images/donkeycar-dashboard-grafana.jpg)
+![](images/race_monitor_v4.png)
 
 ## 1 Motivation and Background
 As I'm again and again stumbling across understanding 
