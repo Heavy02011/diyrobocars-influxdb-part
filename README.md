@@ -39,7 +39,7 @@ $ sudo apt-get install python-influxdb
 
 ### 2.2 [Grafana](https://grafana.com/)
 ```
-(follow instructions of grafana.com)
+(follow instructions on grafana.com)
 ```
 ### 2.3 [Donkeycar part](https://github.com/Heavy02011/50-donkey/tree/master/rbxparts)
 Copy influx.py to the actual (used) donkeycar location
