@@ -122,6 +122,7 @@ class InfluxController(object):
         #print("influx: update")
         while self.running:
             self.isaved += self.write_records()
+            time.sleep(0)  # give other threads time to run
 
     def run(self, *args):
         #print("influx: run")
